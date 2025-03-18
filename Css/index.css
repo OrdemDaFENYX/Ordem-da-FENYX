@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Bebas+Neue&family=Oswald:wght@200..700&display=swap');
+
+* {
+    font-family: "Oswald", serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #000;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+
+.tab {
+    top: 0px;
+    width: 100vw;
+    background: #000;
+    position: fixed;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid #fff;
+
+}
+
+.buttonTab {
+    text-decoration: none;
+    margin: 10px;
+}
+
+.icon {
+    width: 5vw;
+}
+
+.logo {
+    width: 30vw;
+}
+
+.projetoPrincipal {
+    border-radius: 10px;
+    margin: 30px;
+    margin-top: 113px;
+    padding: 25px;
+    background-color: #ffffff21;
+
+    h2 {
+        margin-left: 10px;
+    }
+
+    p {
+        padding: 5px;
+        margin-left: 10px;
+    }
+}
+
+.meioPagina {
+    margin-top: 36px;
+    padding: 25px;
+    display: flex;
+}
+
+.LogBordao {
+    align-self: center;
+}
+
+.fundo {
+    margin-left: 10vw;
+}
+
+
+/* carroselStatico*/
+.carroselStatico {
+    justify-content: space-around;
+    display: flex;
+
+}
+
+.iconInf {
+    margin-bottom: 24px;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    background-color: #fff;
+    border-radius: 100%;
+    width: 5vw;
+}
+
+
+.elementCarrosel {
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    width: 10vw;
+    background-color: #fff;
+}
+
+.elementCarrosel>p,
+.elementCarrosel>h3 {
+    word-wrap: break-word;
+    margin: 5px;
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+}
+
+.divIcon {
+    background-color: #fff;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.separacao {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: #fff;
+    width: 100vw;
+    height: 1px;
+}
+
+
+/*junte-se*/
+.juntse {
+    display: flex;
+}
+
+
+.JunteLeft {
+    margin: 30px;
+    width: 50vw;
+}
+
+.JunteLeft>h1 {
+    margin-bottom: 5px;
+    color: #ff6b00;
+}
+
+.JunteLeft>p {
+    word-wrap: break-word;
+    margin: 10px;
+}
+
+.buttonJuntese {
+    border-radius: 3px;
+    margin: 10px;
+    padding: 3px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+}
+
+.buttonJuntese:hover {
+    transition: 0.3s;
+    border: 1px solid #ff6b00;
+    color: #000;
+    background-color: #ff6b00;
+}
+
+.buttonTab:hover {
+    transition: 0.5s;
+    border-bottom: 2px solid #ff6b00;
+}
+
+.emailButton {
+    text-decoration: none;
+}
+
+.emailButton:hover {
+    color: #ff6b00;
+    transition: 0.5s;
+}
+
+.JunteRigth {
+    width: 50vw;
+}
+
+/*RODAPE DA PAGINA*/
+.rodape {
+    display: flex;
+}
+
+.rodapeLeft {
+    display: flex;
+}
+
+
+.IconRodape {
+    width: 20vw;
+}
+
+.logoRodape {
+    width: 20vw;
+}
+
+.logoRodape {
+    height: 15vh;
+    align-self: anchor-center;
+    display: flex;
+}
+
+.rodapeRight {
+    width: 50vw;
+    margin-left: 30px;
+    padding: 5px;
+}
+
+.rodapeRight>h1 {
+    margin: 3px;
+}
+
+.rodapeRight>p {
+    word-wrap: break-word;
+}
+
+.rodapeRight>h3 {
+    margin-top: 3px;
+}
+
+.divIcons {
+    justify-content: space-around;
+    margin: 10px;
+    display: flex;
+}
+
+.RedesIcons>img {
+    width: 60px;
+}
+
+.divCard>h1 {
+    text-align: center;
+}
+
+.divCard>p {
+    text-align: center;
+}
+
+
+.divCard {
+    margin: 10px;
+    border: #fff solid 1px;
+    width: 25vw;
+}
+
+.divCard>img {
+    width: 20vw;
+}
+
+/*----------------------- responsividade -----------------------*/
+@media (max-width:1920px) {}
+
+@media (max-width:1880px) {}
+
+@media (max-width: 884px) {}
+
+@media (max-width: 834px) {}
+
+@media (max-width: 600px) {}
+
+@media (max-width: 575px) {
+    .imgFundo {
+        width: 56vw;
+    }
+
+    .elementCarrosel {
+        width: 26vw;
+    }
+
+    .iconInf {
+        width: 14vw;
+    }
+
+
+    .juntse {
+        margin-top: 20px;
+
+        img {
+            z-index: -1;
+            margin-left: 0px;
+            width: 48vw;
+            position: absolute;
+        }
+    }
+
+    .JunteLeft>p {
+        width: 50vw;
+    }
+
+    .rodapeRight {
+        width: auto;
+        margin-left: 30px;
+        padding: 5px;
+    }
+
+    .rodape {
+        display: block;
+    }
+
+    .logoRodape {
+        height: 8vh;
+        width: 55vw;
+    }
+
+    .IconRodape {
+        width: 36vw;
+        height: 20vh;
+    }
+
+    .logoRodape {
+        width: 48vw;
+        height: 8vh;
+    }
+}
+
+@media (max-width: 427px) {
+    .juntse {
+        img {
+            margin-left: -37px;
+        }
+    }
+    .iconInf {
+        width: 22vw;
+    }
+    .elementCarrosel {
+        width: 28vw;
+    }
+
+    .logoRodape {
+        height: 7vh;
+    }
+
+    .IconRodape {
+        width: 39vw;
+        height: 18vh;
+    }
+}
+
+@media (max-width: 428px) {}
+
+@media (max-width: 414px) {}
+
+@media (max-width: 412px) {}
+
+@media (max-width: 393px) {
+    .imgFundo {
+        width: 40vw;
+    }
+
+    .elementCarrosel {
+        width: 100px;
+    }
+
+    .iconInf {
+        width: 20vw;
+    }
+
+    .elementCarrosel>p {
+        font-size: 14px;
+    }
+
+    .juntse {
+        margin-top: 20px;
+
+        img {
+            z-index: -1;
+            margin-left: -102px;
+            width: 74vw;
+            position: absolute;
+        }
+    }
+
+    .JunteLeft>p {
+        width: 50vw;
+    }
+
+    .rodapeRight {
+        width: auto;
+        margin-left: 30px;
+        padding: 5px;
+    }
+
+    .rodape {
+        display: block;
+    }
+
+    .logoRodape {
+        height: 8vh;
+        width: 55vw;
+    }
+
+    .IconRodape {
+        width: 46vw;
+        height: 17vh;
+    }
+
+    .logoRodape {
+        width: 48vw;
+        height: 8vh;
+    }
+}
+
+@media (max-width: 390px) {
+    .IconRodape {
+        width: 43vw;
+    }
+
+}
+
+@media (max-width: 375px) {}
+
+@media (max-width: 360px) {}
