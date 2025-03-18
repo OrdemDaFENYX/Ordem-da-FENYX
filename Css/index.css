@@ -8,6 +8,11 @@
     box-sizing: border-box;
 }
 
+body{
+    overflow-x: hidden;
+}
+
+
 html {
     background-color: #000;
     overflow-x: hidden;
