@@ -12,7 +12,6 @@ body{
     overflow-x: hidden;
 }
 
-
 html {
     background-color: #000;
     overflow-x: hidden;
@@ -183,9 +182,6 @@ html {
     transition: 0.5s;
 }
 
-.JunteRigth {
-    width: 50vw;
-}
 
 /*RODAPE DA PAGINA*/
 .rodape {
