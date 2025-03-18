@@ -265,6 +265,9 @@ html {
 @media (max-width: 600px) {}
 
 @media (max-width: 575px) {
+    html {
+        overflow-x: hidden;
+    }
     .imgFundo {
         width: 56vw;
     }
@@ -320,6 +323,9 @@ html {
 }
 
 @media (max-width: 427px) {
+    html {
+        overflow-x: hidden;
+    }
     .juntse {
         img {
             margin-left: -37px;
@@ -349,6 +355,9 @@ html {
 @media (max-width: 412px) {}
 
 @media (max-width: 393px) {
+    html {
+        overflow-x: hidden;
+    }
     .imgFundo {
         width: 40vw;
     }
@@ -411,8 +420,15 @@ html {
         width: 43vw;
     }
 
+    html {
+        overflow-x: hidden;
+    }
 }
 
-@media (max-width: 375px) {}
+@media (max-width: 375px) {
+    .IconRodape {
+        width: 40vw;
+    }
+}
 
 @media (max-width: 360px) {}
