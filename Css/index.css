@@ -21,7 +21,7 @@ html {
 
 .tab {
     top: 0px;
-    width: 100vw;
+    width: 100dvw;
     background: #000;
     position: fixed;
     padding: 10px;
@@ -37,11 +37,11 @@ html {
 }
 
 .icon {
-    width: 5vw;
+    width: 5dvw;
 }
 
 .logo {
-    width: 30vw;
+    width: 30dvw;
 }
 
 .projetoPrincipal {
@@ -72,7 +72,7 @@ html {
 }
 
 .fundo {
-    margin-left: 10vw;
+    margin-left: 10dvw;
 }
 
 
@@ -92,7 +92,7 @@ html {
     align-self: center;
     background-color: #fff;
     border-radius: 100%;
-    width: 5vw;
+    width: 5dvw;
 }
 
 
@@ -100,7 +100,7 @@ html {
     align-items: center;
     align-content: center;
     align-self: center;
-    width: 10vw;
+    width: 10dvw;
     background-color: #fff;
 }
 
@@ -126,7 +126,7 @@ html {
     margin-bottom: 50px;
     margin-top: 50px;
     background-color: #fff;
-    width: 100vw;
+    width: 100dvw;
     height: 1px;
 }
 
@@ -139,7 +139,7 @@ html {
 
 .JunteLeft {
     margin: 30px;
-    width: 50vw;
+    width: 50dvw;
 }
 
 .JunteLeft>h1 {
@@ -194,11 +194,11 @@ html {
 
 
 .IconRodape {
-    width: 20vw;
+    width: 20dvw;
 }
 
 .logoRodape {
-    width: 20vw;
+    width: 20dvw;
 }
 
 .logoRodape {
@@ -208,7 +208,7 @@ html {
 }
 
 .rodapeRight {
-    width: 50vw;
+    width: 50dvw;
     margin-left: 30px;
     padding: 5px;
 }
@@ -247,11 +247,11 @@ html {
 .divCard {
     margin: 10px;
     border: #fff solid 1px;
-    width: 25vw;
+    width: 25dvw;
 }
 
 .divCard>img {
-    width: 20vw;
+    width: 20dvw;
 }
 
 /*----------------------- responsividade -----------------------*/
@@ -270,15 +270,15 @@ html {
         overflow-x: hidden;
     }
     .imgFundo {
-        width: 56vw;
+        width: 56dvw;
     }
 
     .elementCarrosel {
-        width: 26vw;
+        width: 26dvw;
     }
 
     .iconInf {
-        width: 14vw;
+        width: 14dvw;
     }
 
 
@@ -288,13 +288,13 @@ html {
         img {
             z-index: -1;
             margin-left: 0px;
-            width: 48vw;
+            width: 48dvw;
             position: absolute;
         }
     }
 
     .JunteLeft>p {
-        width: 50vw;
+        width: 50dvw;
     }
 
     .rodapeRight {
@@ -309,16 +309,16 @@ html {
 
     .logoRodape {
         height: 8vh;
-        width: 55vw;
+        width: 55dvw;
     }
 
     .IconRodape {
-        width: 36vw;
+        width: 36dvw;
         height: 20vh;
     }
 
     .logoRodape {
-        width: 48vw;
+        width: 48dvw;
         height: 8vh;
     }
 }
@@ -333,10 +333,10 @@ html {
         }
     }
     .iconInf {
-        width: 22vw;
+        width: 22dvw;
     }
     .elementCarrosel {
-        width: 28vw;
+        width: 28dvw;
     }
 
     .logoRodape {
@@ -344,7 +344,7 @@ html {
     }
 
     .IconRodape {
-        width: 39vw;
+        width: 39dvw;
         height: 18vh;
     }
 }
@@ -360,7 +360,7 @@ html {
         overflow-x: hidden;
     }
     .imgFundo {
-        width: 40vw;
+        width: 40dvw;
     }
 
     .elementCarrosel {
@@ -368,7 +368,7 @@ html {
     }
 
     .iconInf {
-        width: 20vw;
+        width: 20dvw;
     }
 
     .elementCarrosel>p {
@@ -381,13 +381,13 @@ html {
         img {
             z-index: -1;
             margin-left: -102px;
-            width: 74vw;
+            width: 74dvw;
             position: absolute;
         }
     }
 
     .JunteLeft>p {
-        width: 50vw;
+        width: 50dvw;
     }
 
     .rodapeRight {
@@ -402,23 +402,23 @@ html {
 
     .logoRodape {
         height: 8vh;
-        width: 55vw;
+        width: 55dvw;
     }
 
     .IconRodape {
-        width: 46vw;
+        width: 46dvw;
         height: 17vh;
     }
 
     .logoRodape {
-        width: 48vw;
+        width: 48dvw;
         height: 8vh;
     }
 }
 
 @media (max-width: 390px) {
     .IconRodape {
-        width: 43vw;
+        width: 43dvw;
     }
 
     html {
@@ -428,7 +428,7 @@ html {
 
 @media (max-width: 375px) {
     .IconRodape {
-        width: 40vw;
+        width: 40dvw;
     }
 }
 
