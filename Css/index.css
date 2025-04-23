@@ -115,7 +115,7 @@ html {
 
 .divIcon {
     background-color: #fff;
-    height: 8vh;
+    height: 8dvh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -202,7 +202,7 @@ html {
 }
 
 .logoRodape {
-    height: 15vh;
+    height: 15dvh;
     align-self: anchor-center;
     display: flex;
 }
@@ -308,18 +308,18 @@ html {
     }
 
     .logoRodape {
-        height: 8vh;
+        height: 8dvh;
         width: 55dvw;
     }
 
     .IconRodape {
         width: 36dvw;
-        height: 20vh;
+        height: 20dvh;
     }
 
     .logoRodape {
         width: 48dvw;
-        height: 8vh;
+        height: 8dvh;
     }
 }
 
@@ -340,12 +340,12 @@ html {
     }
 
     .logoRodape {
-        height: 7vh;
+        height: 7dvh;
     }
 
     .IconRodape {
         width: 39dvw;
-        height: 18vh;
+        height: 18dvh;
     }
 }
 
@@ -401,18 +401,18 @@ html {
     }
 
     .logoRodape {
-        height: 8vh;
+        height: 8dvh;
         width: 55dvw;
     }
 
     .IconRodape {
         width: 46dvw;
-        height: 17vh;
+        height: 17dvh;
     }
 
     .logoRodape {
         width: 48dvw;
-        height: 8vh;
+        height: 8dvh;
     }
 }
 
