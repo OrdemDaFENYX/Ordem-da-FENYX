@@ -379,12 +379,6 @@ main {
         margin: 10px;
     }
 
-    main {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        justify-content: flex-start;
-    }
-
     #conto-cardMula {
         height: 233px;
         width: 180px;
@@ -392,7 +386,6 @@ main {
     }
 
     .conto-card {
-        height: 42vh;
         width: 43vw;
     }
 
