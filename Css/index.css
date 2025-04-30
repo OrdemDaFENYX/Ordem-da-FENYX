@@ -35,6 +35,13 @@ p{
     color: #fff;
     word-wrap: break-word;
 }
+.titleProjetos{
+    color: #ff6b00;
+}
+.subtitleProjetos{
+    color: #ff6b00;
+}
+
 .buttonTab {
     color: #fff;
     text-decoration: none;
@@ -353,7 +360,7 @@ p{
     html {
         overflow-x: hidden;
     }
-    
+
     .iconInf {
         width: 22dvw;
     }
