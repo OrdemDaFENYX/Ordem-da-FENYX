@@ -396,29 +396,8 @@ html {
             position: absolute;
         }
     }
-
-    .JunteLeft>p {
-        width: 50dvw;
-    }
-
-    .rodapeRight {
-        width: auto;
-        margin-left: 30px;
-        padding: 5px;
-    }
-
-    .rodape {
-        display: block;
-    }
-
-    .logoRodape {
-        height: 8dvh;
-        width: 55dvw;
-    }
-
-    .logoRodape {
-        width: 48dvw;
-        height: 8dvh;
+    .meioPagina {
+        margin-top: 86px;
     }
 }
 
