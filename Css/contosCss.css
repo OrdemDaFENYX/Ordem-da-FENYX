@@ -59,75 +59,14 @@ tituloContoCard:hover {
     transition: 0.3s;
 }
 
-/*estilo mobile*/
-.menuMobile {
-    transition: .5s;
-    right: 0;
-    top: 0;
-    z-index: 3;
-    background-color: #000;
-    height: 100vh;
-    width: 0%;
-    overflow: hidden;
-    position: fixed;
+.conto-card2:hover {
+    opacity: 0.8;
 }
 
-.abriMenu {
-    display: none;
-    position: relative;
-    align-self: center;
-    align-items: center;
+.buttonTab:hover {
+    transition: 0.5s;
+    border-bottom: 2px solid #ff6b00;
 }
-
-.bntAbri {
-    position: relative;
-}
-
-li {
-    list-style: none;
-}
-
-.menuMobile>nav>ul>li>a {
-    text-decoration: none;
-    font-weight: 300;
-    font-size: 20pt;
-
-}
-
-.tabbuttonMobile:hover {
-    padding: 20px;
-    background-color: #fff;
-}
-
-.tabbuttonMobile {
-    padding: 20px 4%;
-    text-align: right;
-}
-
-.bntFechar {
-    padding: 8px;
-}
-
-.fundoDesfoc {
-    display: none;
-    z-index: 2;
-    top: 0;
-    left: 0;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
-}
-
-.menuMobile.menuAberto {
-    width: 70%;
-}
-
-.menuMobile.menuAberto~.fundoDesfoc {
-    display: block;
-}
-
-/*fim do menu*/
 
 #separacaoTilt {
     width: 100vw;
@@ -194,6 +133,7 @@ input[type="checkbox"]:checked+.box {
 }
 
 p {
+    word-wrap: break-word;
     font-size: 20px;
     color: #d3d3d3;
 }
@@ -203,13 +143,12 @@ p {
     text-indent: 10px;
 }
 
-.textEntidade {
+.textContos {
     padding: 20px;
     border: #fff solid;
     display: inline-flex;
     margin-left: 2vw;
     margin: 10px;
-    width: 86vw;
     word-wrap: break-word;
     text-align: justify;
 }
@@ -225,9 +164,7 @@ h2 {
     color: #fff;
 }
 
-.conto-card2:hover {
-    opacity: 0.8;
-}
+
 
 main {
     display: flex;
@@ -418,7 +355,7 @@ main {
     }
 
     .box {
-        width: 99vw;
+        width: 100%;
         height: 100vh;
         top: -1px;
         left: 0px;
